@@ -55,7 +55,3 @@ jobs:
             git commit -m "chore: update rates.json [skip ci]" || echo "commit failed"
             git push
           fi
-
-      - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@v2
-        if: always()
